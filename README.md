@@ -1,2 +1,2 @@
 # smonitor
-Java monitor of server states - like Apache2, MySQL ... - but also for start- and system monitoring - SMonitor
+Java monitor to show server states - for Apache2, MySQL etc... - but also for start- and system monitoring - SMonitor
