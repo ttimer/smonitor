@@ -6,7 +6,9 @@ Java monitor to show server states - for Apache2, MySQL etc... - but also for st
 Already created for Ubuntu/i386:
 
 `
+
 sudo snap install smonitor
+
 `
 
 
