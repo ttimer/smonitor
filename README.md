@@ -6,16 +6,14 @@ Java monitor to show server states - for Apache2, MySQL etc... - but also for st
 Already created for Ubuntu/i386:
 
 `
-
 sudo snap install smonitor
-
 `
 
 
 
 Feel free to transform ...
 
-To 'snapcraft' the ttimer two folders, BIN and SNAP, and these five files had been used only:
+To 'snapcraft' the smonitor two folders, BIN and SNAP, and these six files had been used only:
 
     snap/snapcraft.yaml
     bin/smonitor.desktop
