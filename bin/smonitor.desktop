@@ -1,0 +1,22 @@
+[Desktop Entry]
+Categories=Utility;
+Comment[en_US]=Java Application [SNAP]
+Comment=Java Application [SNAP]
+Exec=env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/smonitor.desktop /snap/bin/smonitor %U
+GenericName[en_US]=Monitor
+GenericName=Monitor
+Icon=/snap/smonitor/current/meta/gui/icon.png
+Icon2=/var/lib/snapd/snap/smonitor/current/meta/gui/icon.png
+Keywords=hourglass;timer;tea-timer;egg-timer;
+MimeType=
+Name[en_US]=SMonitor
+Name=SMonitor
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=

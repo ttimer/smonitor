@@ -1,0 +1,26 @@
+# publisher: Juergen Smolka 
+# info-page: http://launchpad.net/smonitor/
+# contact:   http://smolka.lima-city.de/contact.php
+name: smonitor
+version: "0.0.2beta-xxxx"
+summary: Monitoring of server states (and other things)
+description: ==== TRY the configurable version from the edge channel ====
+  ====  sudo snap install smonitor --edge  ====
+  SMonitor beta version -- Prerequisite Java 8 or higher --- Built on/for Linux KUbuntu 16.04, Java 8, i386, Apache2 web server and MySQL data base server (status quo 06/2018) -- it might run on other system configurations as well. ---- With different init methods (SysV/Upstart/systemd) and after some updates the servers were startet at boot time even if they should not, so I put this tool into 'Autostart' to be informed of the misbehavior.
+grade: stable         # must be 'stable' to release into candidate/stable channels
+confinement: strict   # use 'strict' once you have the right plugs and slots
+icon: bin/icon.png
+
+apps:
+  smonitor:
+    command: bin/smonitor
+    desktop: bin/smonitor.desktop
+    plugs: [home, network, unity7, x11]    
+    
+parts:
+  java-jre:
+    plugin: jdk
+    source: .
+  app-wrapper:
+    plugin: dump
+    source: .
