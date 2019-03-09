@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp 
+    spec="1.0+" 
+    codebase="https://launchpad.net/smonitor/trunk/ms/+download"
+    href="win-smonitor.jnlp">
+  <information>
+    <title>SMonitor</title>  
+    <vendor>www.ABAP-Developer.de.ms</vendor>
+    <homepage href="http://smolka.lima-city.de/" /> 
+    <description>SMonitor</description> 
+    <icon kind="default" href="smonitor.png" />
+    <offline-allowed/>
+    <shortcut online="false" install="true">
+      <desktop />
+      <menu submenu="SMonitor" />
+    </shortcut>
+  </information>
+  <security>
+    <all-permissions />
+  </security>
+  <resources>
+    <j2se version="1.8+" /> 
+    <jar href="win-smonitor.jar" main="true" />
+  </resources>
+  <update check="background" />
+  <application-desc main-class="it.jes.monitor.SMonitor" />
+</jnlp>
