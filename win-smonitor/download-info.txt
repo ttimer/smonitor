@@ -1,0 +1,11 @@
+
+Download for WINDOWS (untested): 
+
+https://launchpad.net/smonitor/trunk/ms/+download/win-smonitor.jnlp
+
+
+Download for MAC OS (untested): 
+
+https://launchpad.net/smonitor/trunk/ms/+download/mac-smonitor.jnlp
+
+.
